@@ -1,0 +1,60 @@
+body{
+    margin:0px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1{
+    margin:0 auto;
+    width: 10%;
+    font-family: "Cookie", cursive;
+}
+h2,h3{
+    font-family: "Montserrat", serif;
+}
+.imagen{
+    position: absolute;
+    max-width: 250px;
+
+}
+.top-cloud{
+    max-width: 175px;
+    top: 50px;
+    right: 250px;
+}
+.bottom-cloud{
+    max-width: 200px;
+    left: 300px;
+    bottom: 250px;
+}
+.eiffel{
+    max-width: 150px;
+    position: relative;
+}
+.mountain{
+    position: relative;
+}
+.profile-photo{
+    max-width: 20%;
+    border-radius: 50%;
+}
+.skill-image{
+    background-color: #644b39;
+    border-radius: 50%;
+}
+.top-container{
+
+    background-color: #FFEDDB;
+    padding-top: 50px;
+}
+
+/* .middle-container{
+
+}
+.bottom-container{
+
+} */
+.pro{
+    text-decoration: underline;
+}
+
