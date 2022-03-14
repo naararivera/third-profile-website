@@ -1,16 +1,33 @@
 body{
+    color: #4b4a49;
     margin:0px;
     text-align: center;
     font-family: "Merriweather", serif;
+    line-height: 2;
 }
 
 h1{
-    margin:0 auto;
-    width: 10%;
+    color: #AD8B73;
+    font-size: 3.75rem;
+    line-height: 2;
+    margin:50px auto 0 auto;
+    width: 30%;
     font-family: "Cookie", cursive;
+}
+h2{
+    color: #AD8B73;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 h2,h3{
     font-family: "Montserrat", serif;
+    font-size: 2rem;
+}
+hr{
+    border-top: 6px dotted;
+    border-bottom: 0;
+    width: 10%;
+    color: #e4bda1;
 }
 .imagen{
     position: absolute;
@@ -18,43 +35,100 @@ h2,h3{
 
 }
 .top-cloud{
-    max-width: 175px;
+    max-width: 125px;
     top: 50px;
     right: 250px;
 }
 .bottom-cloud{
-    max-width: 200px;
-    left: 300px;
+    max-width: 150px;
+    left: 250px;
     bottom: 250px;
 }
 .eiffel{
+    margin: 25px auto;
     max-width: 150px;
     position: relative;
 }
-.mountain{
-    position: relative;
+
+.profile{
+    margin: 50px auto;
 }
 .profile-photo{
     max-width: 20%;
     border-radius: 50%;
 }
+.skill-row{
+    line-height: 2;
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
 .skill-image{
     background-color: #644b39;
     border-radius: 50%;
+    width: 25%;
+    margin-bottom: 10px;
 }
-.top-container{
+.frances{
+    float: left;
+    margin-right: 30px;
+}
+.paleta{
+    float: right;
+    margin-left: 30px;
+}
 
+.top-container{
     background-color: #FFEDDB;
     padding-top: 50px;
 }
 
-/* .middle-container{
-
-}
 .bottom-container{
-
-} */
-.pro{
-    text-decoration: underline;
+    background-color: #FFEDDB;
+    padding: 30px 0 25px;
 }
-
+.pics-links{
+    background-color: #FFEDDB;
+    font-size: 6px;
+}
+.contact-me{
+    margin: 40px auto;
+}
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+a{
+    color: #644b39;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #e3a0a0;
+}
+.btn {
+    background: #FFEDDB;
+    background-image: -webkit-linear-gradient(top, #FFEDDB, #E3B7A0);
+    background-image: -moz-linear-gradient(top, #FFEDDB, #E3B7A0);
+    background-image: -ms-linear-gradient(top, #FFEDDB, #E3B7A0);
+    background-image: -o-linear-gradient(top, #FFEDDB, #E3B7A0);
+    background-image: linear-gradient(to bottom, #FFEDDB, #E3B7A0);
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: "Montserrat", serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #E3B7A0;
+    background-image: -webkit-linear-gradient(top, #E3B7A0, #FFEDDB);
+    background-image: -moz-linear-gradient(top, #E3B7A0, #FFEDDB);
+    background-image: -ms-linear-gradient(top, #E3B7A0, #FFEDDB);
+    background-image: -o-linear-gradient(top, #E3B7A0, #FFEDDB);
+    background-image: linear-gradient(to bottom, #E3B7A0, #FFEDDB);
+    text-decoration: none;
+  }
